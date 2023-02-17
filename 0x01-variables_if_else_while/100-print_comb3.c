@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-  * main - Prints the numbers from 01 to 89
+  * main - Prints the numbers from 00 to 99
   *
   * Return: Always (Success)
   */
@@ -9,14 +9,13 @@ int main(void)
 {
 	int d, p;
 
-
 	for (d = '0'; d < '9'; d++)
 	{
-		for (p = d + 1; p <= '9'; p++)
+		for (p = d +1; p <= '9'; p++)
 		{
-                        if (p != d)
-                        {
-			       	putchar(d);
+			if (p != d)
+			{
+				putchar(d);
 				putchar(p);
 				if (d == '8' && p == '9')
 				continue;
