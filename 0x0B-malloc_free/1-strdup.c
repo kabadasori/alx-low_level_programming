@@ -1,6 +1,6 @@
-*
+/*
  * File: 1-strdup.c
- * Auth: Kabada Sori Ayana
+ * Auth: Kabada Sori
  */
 
 #include "main.h"
